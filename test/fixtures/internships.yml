@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name_of_company: MyString
+  description: MyString
+  starting: 2015-11-11 10:04:45
+  ending: 2015-11-11 10:04:45
+  city: MyString
+  country: MyString
+  remote: false
+
+two:
+  name_of_company: MyString
+  description: MyString
+  starting: 2015-11-11 10:04:45
+  ending: 2015-11-11 10:04:45
+  city: MyString
+  country: MyString
+  remote: false
