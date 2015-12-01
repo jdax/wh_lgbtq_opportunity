@@ -46,3 +46,4 @@ end
 gem 'bootstrap-sass'
 gem 'rails_12factor', group: :production
 gem 'make_resourceful'
+gem 'simple_form'

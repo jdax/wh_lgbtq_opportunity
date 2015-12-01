@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
-  make_resourceful do
-    actions :index
-  end
+ def index
+
+ end
 end

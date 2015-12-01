@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   resources :apprenticeships
   resources :internships
   resources :scholarships
-  resources :international, only: :index
+  resources :internationals, only: :index
   resources :events
   resources :home, only: :index
   # Example of named route that can be invoked with purchase_url(id: product.id)

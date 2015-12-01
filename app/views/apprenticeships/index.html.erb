@@ -1,0 +1,26 @@
+
+
+<table class="table table-striped">
+<tr>
+  <th><%= sortable :name_of_apprentor, "Contact" %></th>
+  <th><%= sortable :description, "Description" %></th>
+  <th><%= sortable :created_at, "Posted"%></th>
+  <th><%= sortable :starting, "Start Date" %></th>
+  <th><% sortable :ending, "End Date" %></th>
+  <th><%= sortable :city, "City" %></th>
+  <th><%= sortable :country, "Country" %></th>
+  <th><%= sortable :remote, "Allows remote?" %></th>
+</tr>
+  <% @apprenticeships.each do |a| %>
+  <tr>
+  <td><%= a.name_of_apprentor %></td>
+    <td><%= a.description %></td>
+    <td><%= a.created_at %></td>
+    <td><%= a.starting %></td>
+    <td><%= a.ending %></td>
+    <td><%= a.city %></td>
+    <td><%= a.country %></td>
+    <td><%= a.remote %></td>
+  </tr>
+      <% end %>
+</table>
