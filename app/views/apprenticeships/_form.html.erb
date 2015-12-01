@@ -1,0 +1,12 @@
+<div class="col-md-6 %>"
+<%= simple_form_for @apprenticeship, input_html: {class: 'form-horizontal'} do |f|%>
+    <%= f.input :name_of_apprentor %>
+    <%= f.input :description %>
+    <%= f.input :starting %>
+    <%= f.input :ending %>
+    <%= f.input :city %>
+    <%= f.input :country, as: :text %>
+    <%= f.input :remote %>
+    <%= f.submit %>
+<% end %>
+</div>
